@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <div class="section">
+          <h1 class="heading" id="headingHome">HOME</h1>
+          <p id="home-count" class="count">0</p>
+          <div class="buttons">
+            <button id="add-one" class="button" onclick="homeAddOne()">
+              +1
+            </button>
+            <button id="add-two" class="button" onclick="homeAddTwo()">
+              +2
+            </button>
+            <button id="add-three" class="button" onclick="homeAddThree()">
+              +3
+            </button>
+          </div>
+        </div>
+
+        <div class="section">
+          <h1 class="heading" id="headingGuest">GUEST</h1>
+          <p id="guest-count" class="count">0</p>
+          <div class="buttons">
+            <button id="add-one" class="button" onclick="guestAddOne()">
+              +1
+            </button>
+            <button id="add-two" class="button" onclick="guestAddTwo()">
+              +2
+            </button>
+            <button id="add-three" class="button" onclick="guestAddThree()">
+              +3
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="restartSection">
+        <button id="reset" class="btn" onclick="resetGame()">RESET</button>
+      </div>
+    </div>
+    <p class="credits">
+      Photo by
+      <a
+        href="https://unsplash.com/@d_mccullough?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >Daniel McCullough</a
+      >
+      on
+      <a
+        href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >Unsplash</a
+      >
+    </p>
+  </body>
+</html>
